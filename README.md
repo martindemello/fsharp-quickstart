@@ -14,7 +14,7 @@ The scripts assume that `mono`, `fsharp` and `forge` are all installed and in yo
 To install Forge and have it executable via `forge`:
 
 ````
-   git clone https://github.com/fsprojects/Forge.git
+   git clone https://github.com/fsharp-editing/Forge.git
    cd Forge/
    sh build.sh 
    echo "mono `pwd`/temp/bin/Forge.exe \"$@\"" > $BIN_DIR/forge
